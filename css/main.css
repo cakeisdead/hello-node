@@ -98,6 +98,29 @@ body{
     background-color: #FF6;
     font-family: 'Press Start 2P';
     color: #333;
+    padding-bottom: 15px;
+}
+
+section{
+    margin: 5% auto;
+    width: 400px;
+    height: 450px;
+    position: relative;
+}
+
+footer{
+    padding: 5px;
+    position: absolute;
+    background: #E809BB;
+    font: 1em Sans-Serif;
+    bottom: 0; right: 0;
+    height: 15px;
+    text-align: center;
+}   
+
+footer a{
+    color: #FFF;
+    text-decoration: none;
 }
 
 .title-tag{
@@ -108,20 +131,29 @@ body{
     width: auto;
     padding: 5px;
     margin: 5px 0 0 5px;
+    position: relative;
 }
 
+.front-pet{
+    background: url(/img/pet.png);
+    width: 340px;
+    height: 350px;
+    display: block;
 
+}
 
-
-
-
-
-
-
-
-
-
-
+.input-command{
+    border: none;
+    background: #FA3E48;
+    width: 330px;
+    height: 30px;
+    font-size: 1.5em;
+    padding: 5px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 1em 0 1em 0;
+    box-shadow: 3px 3px 5px #E87C09;
+}
 
 /* ==========================================================================
    Helper classes
