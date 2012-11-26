@@ -94,7 +94,21 @@ textarea {
    ========================================================================== */
 
 
+body{
+    background-color: #FF6;
+    font-family: 'Press Start 2P';
+    color: #333;
+}
 
+.title-tag{
+    font-size: 1.3em;
+    display: inline-block;
+    background-color: #000;
+    color: #FFF;
+    width: auto;
+    padding: 5px;
+    margin: 5px 0 0 5px;
+}
 
 
 
