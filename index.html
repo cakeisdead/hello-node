@@ -43,7 +43,7 @@
         <!-- Socket.IO -->
         <script src="/socket.io/socket.io.js"></script>
         <script>
-            var socket = io.connect('127.0.0.1:8080');
+            var socket = io.connect();
             socket.on('welcome', function(data){
                 console.log(data);
                 /**socket.emit('other', {my: 'data'});**/

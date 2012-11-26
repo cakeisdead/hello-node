@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', 'af' ]
+2 info using npm@1.1.59
+3 info using node@v0.8.8
+4 verbose read json /Users/cakeisdeadnow/package.json
+5 verbose read json /Users/cakeisdeadnow/node_modules/socket.io/package.json
+6 verbose read json /Users/cakeisdeadnow/package.json
+7 verbose cache add [ 'af', null ]
+8 silly cache add name=undefined spec="af" args=["af",null]
+9 verbose parsed url { pathname: 'af', path: 'af', href: 'af' }
+10 silly lockFile d1e62250-af af
+11 verbose lock af /Users/cakeisdeadnow/.npm/d1e62250-af.lock
+12 silly lockFile d1e62250-af af
+13 verbose addNamed [ 'af', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 3b62543f-af af@
+16 verbose lock af@ /Users/cakeisdeadnow/.npm/3b62543f-af.lock
+17 silly addNameRange { name: 'af', range: '', hasData: false }
+18 verbose url raw af
+19 verbose url resolving [ 'https://registry.npmjs.org/', './af' ]
+20 verbose url resolved https://registry.npmjs.org/af
+21 info retry registry request attempt 1 at 19:27:44
+22 http GET https://registry.npmjs.org/af
+23 http 404 https://registry.npmjs.org/af
+24 silly registry.get cb [ 404,
+24 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+24 silly registry.get     date: 'Mon, 26 Nov 2012 01:28:13 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'cache-control': 'must-revalidate' } ]
+25 silly lockFile 3b62543f-af af@
+26 error 404 'af' is not in the npm registry.
+26 error 404 You should bug the author to publish it
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, or http url, or git url.
+27 error System Darwin 11.4.0
+28 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "af"
+29 error cwd /Users/cakeisdeadnow/proyectos/hello-node
+30 error node -v v0.8.8
+31 error npm -v 1.1.59
+32 error code E404
+33 verbose exit [ 1, true ]
