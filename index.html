@@ -60,7 +60,7 @@
             var socket = io.connect();
             socket.on('welcome', function(data){
                 console.log(data);
-                letItRain(Math.floor((Math.random()*screen.width)+1));
+                letItRain(40);
                 /**socket.emit('other', {my: 'data'});**/
             });
         </script>

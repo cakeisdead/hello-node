@@ -39,6 +39,7 @@ function handler (req, res) {
 
 io.sockets.on('connection', function(socket){
 	socket.emit('welcome', 'Welcome dude! :)');
+
 	/**socket.on('other', function(data) {
 		console.log(data);
 	});**/
