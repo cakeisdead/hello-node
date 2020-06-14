@@ -1,6 +1,6 @@
 /** Falling Elements **/
 function singleDrop(x){
-	var elem = $("<div class='falling-elem'>node</div>");
+	var elem = $("<div class='falling-elem'>₿</div>");
 	elem.css('left',x);
 	elem.css('-webkit-transition', 'top '+Math.floor((Math.random()*30+1))+'s');
 	elem.css('font-size', (Math.random() + 1) + 'em')
@@ -13,5 +13,5 @@ function singleDrop(x){
 
 function letItRain(drops) {
 	for(var i=0; i <= drops; i++)
-		singleDrop(Math.floor((Math.random()*screen.width)+1));	
+		singleDrop(Math.floor((Math.random()*screen.width)+1));
 }
